@@ -1,5 +1,7 @@
 {
     "name": "virtual-pacer",
+    "homepage": "https://hrnxm.github.io/virtual-pacer/",
+    "license": "MIT",
     "private": false,
     "version": "1.0.0",
     "type": "module",
