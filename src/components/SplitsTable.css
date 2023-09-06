@@ -1,0 +1,25 @@
+.splits {
+    width: 40vw;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+@media screen and (max-width: 1000px) {
+    .splits {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .splits {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .splits {
+        width: 90vw;
+    }
+}

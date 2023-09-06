@@ -1,0 +1,8 @@
+.target-time {
+    font-family: var(--chakra-fonts-body);
+    padding: var(--chakra-space-4) var(--chakra-space-7);
+    border-width: 1px;
+    border-radius: 12px;
+    overflow-x: auto;
+    width: fit-content;
+}

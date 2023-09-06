@@ -1,0 +1,17 @@
+{
+    "name": "Virtual Pacer",
+    "short_name": "VirtualPacer",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#319795",
+    "background_color": "#3e505b",
+    "description": "Pace and splits calculator.",
+    "icons": [
+        {
+            "src": "logo.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ]
+}

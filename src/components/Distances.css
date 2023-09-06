@@ -1,0 +1,36 @@
+.total-and-split {
+    width: fit-content !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.total-and-split > .chakra-form__error-message {
+    margin-top: 0 !important;
+}
+
+.chakra-numberinput {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.chakra-numberinput input {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .total-and-split > .chakra-select__wrapper {
+        margin-top: 1.5rem;
+    }
+
+    .total-and-split > .chakra-form__error-message + .chakra-select__wrapper {
+        margin-top: 0;
+    }
+
+    .total-and-split > .chakra-form__error-message {
+        height: 1.5rem;
+    }
+}

@@ -1,0 +1,36 @@
+.inputs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5rem;
+}
+
+p.chakra-text {
+    display: inline-block;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 750px) {
+    .inputs {
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .inputs {
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .inputs {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .inputs {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
