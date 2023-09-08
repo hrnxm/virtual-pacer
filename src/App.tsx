@@ -2,7 +2,7 @@ import React from "react";
 import { ChakraProvider } from "@chakra-ui/react";
 import "./App.css";
 import MainCtxProvider from "./store/MainCtx";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { HashRouter, Link, Route, Routes } from "react-router-dom";
 
 import Home from "./routes/Home";
 import headerLogo from "./assets/header-logo.svg";
@@ -12,7 +12,7 @@ const App: React.FC = () => {
     return (
         <ChakraProvider>
             <MainCtxProvider>
-                <BrowserRouter>
+                <HashRouter>
                     <header>
                         <Link to="/">
                             <img src={headerLogo} alt="header logo" />
@@ -25,7 +25,7 @@ const App: React.FC = () => {
                             <Route path="/*" element={<NotFound />} />
                         </Routes>
                     </main>
-                </BrowserRouter>
+                </HashRouter>
             </MainCtxProvider>
         </ChakraProvider>
     );
